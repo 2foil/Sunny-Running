@@ -48,10 +48,10 @@
 ### &emsp;微信登录（第一次登录）
 &emsp;&emsp;API_ROOT/token/QM_Users/Login?wxCode=(微信的OAuth字段)&IMEI=(UUID)
 
-&emsp;&emsp;此请求无法模拟，仅用于抓取IMEI。
+&emsp;&emsp;此请求无法模拟，仅用于抓取UUID。
 
 ### &emsp;IMEICode登录
-&emsp;&emsp;微信登录后服务器会回传IMEICode，有效期较长，可用于长期登录。
+&emsp;&emsp;微信登录后服务器会回传IMEICode，有效期较长，用于长期登录。
 
 &emsp;&emsp;API_ROOT/token/QM_Users/LoginSchool?IMEICode=(你的IMEICode)
 
@@ -75,7 +75,7 @@
 
 &emsp;&emsp;用enc函数表示上面的处理。
 
-&emsp;&emsp;API_ROOT/(token)/QM_Runs/ES?S1=(runid)&S2=(enc(5000))&S3=(enc(2000))&S4=(enc(跑步时间，单位s，如770))&S5=(enc(跑步距离))&S6=&S7=1&S8=(刚才生成的小写字母串)&S9=(enc(步数))
+&emsp;&emsp;API_ROOT/(token)/QM_Runs/ES?S1=(runid)&S2=(enc(5000))&S3=(enc(2000))&S4=(enc(跑步时间，单位s))&S5=(enc(跑步距离，单位m))&S6=&S7=1&S8=(刚才生成的小写字母串)&S9=(enc(步数))
 
 ## Author
-&emsp;&emsp;Jason，iOS Developer & Cracker
+&emsp;&emsp;Jason, iOS Developer & Cracker
