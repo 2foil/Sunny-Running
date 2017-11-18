@@ -74,5 +74,5 @@
 
 &emsp;&emsp;API_ROOT/(token)/QM_Runs/ES?S1=(runid)&S2=(enc(5000))&S3=(enc(2000))&S4=(enc(跑步时间，单位s，如770))&S5=(enc(跑步距离))&S6=&S7=1&S8=(刚才生成的小写字母串)&S9=(enc(步数))
 
-##Author
+## Author
 &emsp;&emsp;Jason，iOS Developer & Cracker
