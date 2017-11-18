@@ -5,6 +5,9 @@
 
 &emsp;&emsp;本文研究成果源于对iOS版Sunny Running的逆向分析。
 
+## License
+&emsp;&emsp;GPL v3
+
 ## 将要使用到的一些关键值
 
 ### &emsp;API_ROOT
