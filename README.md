@@ -55,8 +55,12 @@
 
 &emsp;&emsp;API_ROOT/token/QM_Users/LoginSchool?IMEICode=(你的IMEICode)
 
-### &emsp;获取用户信息（可省略）
+&emsp;&emsp;此请求头中有auth字段，涉及到上次跑步的token，但是可省略，暂不清楚作用。
+
+### &emsp;获取用户信息
 &emsp;&emsp;API_ROOT/(token)/QM_Users/GS
+
+&emsp;&emsp;此处请求头中有一个auth字段，没有填写也可请求，加密方式为aes-128-cbc-pkcs5，明文为上次跑步结束时间（mmss）+UUID。出于安全考虑不公开密钥和偏移量。
 
 &emsp;&emsp;此处为上文提到的token，登录后获取，下同。
 
