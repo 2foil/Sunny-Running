@@ -60,7 +60,9 @@
 ### &emsp;获取用户信息
 &emsp;&emsp;API_ROOT/(token)/QM_Users/GS
 
-&emsp;&emsp;此处请求头中有一个auth字段，没有填写也可请求，暂不清楚其作用。加密方式为aes-128-cbc-pkcs5，明文为上次跑步结束时间（mmss）+UUID。出于安全考虑不公开密钥和偏移量。
+&emsp;&emsp;此处请求头中有一个auth字段，没有填写也可请求，暂不清楚其作用。内容为'C'+(密文)。
+
+&emsp;&emsp;加密方式为aes-128-cbc-pkcs5，明文为上次跑步结束时间（mmss）+UUID。出于安全考虑不公开密钥和偏移量。
 
 &emsp;&emsp;此处为上文提到的token，登录后获取，下同。
 
