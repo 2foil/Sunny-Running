@@ -22,6 +22,9 @@
 ### &emsp;token
 &emsp;&emsp;每次登录后由服务器发送给客户端，用于标记本次登陆，生命周期猜测20min左右。
 
+### &emsp;userid
+&emsp;&emsp;跑步者在爱跑后台中的id，登陆后由服务器发送给客户端，与请求头中的签名有关。
+
 ### &emsp;timespan和nonce
 &emsp;&emsp;这两个参数位于请求头中，用于验证请求。
 
