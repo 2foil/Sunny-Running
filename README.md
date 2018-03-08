@@ -92,7 +92,7 @@
 
 &emsp;&emsp;用enc函数表示上面的处理过程。
 
-&emsp;&emsp;API_ROOT/(token)/QM_Runs/ES?S1=(runid)&S2=(enc(5000))&S3=(enc(2000))&S4=(enc(跑步时间，单位s))&S5=(enc(跑步距离，单位m))&S6=&S7=1&S8=(刚才生成的小写字母串)&S9=(enc(步数))
+&emsp;&emsp;API_ROOT/(token)/QM_Runs/ES?S1=(runid)&S2=(enc(男生5000，女生4000))&S3=(enc(男生2000，女生1600))&S4=(enc(跑步时间，单位s))&S5=(enc(跑步距离，单位m))&S6=&S7=1&S8=(刚才生成的小写字母串)&S9=(enc(步数))
 
 &emsp;&emsp;请求头中有两处签名auth和sign。
 
